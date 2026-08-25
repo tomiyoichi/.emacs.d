@@ -140,4 +140,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(global-set-key (kbd "C-x g") 'magit-status)
+
+(define-key global-map (kbd "C-x g") 'magit-status)
+(define-key global-map (kbd "C-c g") 'magit-dispatch)
+(define-key global-map (kbd "C-c f") 'magit-file-dispatch)
+
+;; コメント追加のテスト
