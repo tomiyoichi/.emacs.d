@@ -144,5 +144,3 @@
 (define-key global-map (kbd "C-x g") 'magit-status)
 (define-key global-map (kbd "C-c g") 'magit-dispatch)
 (define-key global-map (kbd "C-c f") 'magit-file-dispatch)
-
-;; コメント追加のテスト
