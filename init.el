@@ -108,6 +108,17 @@
 ;; (load-theme 'deeper-blue t)
 (load-theme 'modus-vivendi t)
 
+;; 起動時のスタートアップ画面を非表示にする
+(setq inhibit-startup-screen t)
+
+;; scratchバッファの初期コメントを空にする
+(setq initial-scratch-message "")
+
+;; (必要であれば) 起動時のバッファのモードをテキストモードにする設定
+;; デフォルト（Lispモード）で良ければ、下の1行は書かなくて大丈夫です
+(setq initial-major-mode 'text-mode)
+
+
 ;; ;; ----- フォント系 -----
 ;; Iosevka + IBM Plex Sans JP フォント設定
 
