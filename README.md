@@ -1,0 +1,1 @@
+主にWindows11のMicrosoft Store版Emacsでの利用を想定
